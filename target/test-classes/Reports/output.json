@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Instagram Login Credential testing",
+        "description": "",
+        "id": "instagram-functionality-testing;instagram-login-credential-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18344613700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the instagram login page",
+            "match": {
+              "location": "StepDefClass.user_is_on_the_instagram_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1161772700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the username and password",
+            "match": {
+              "location": "StepDefClass.user_should_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271988200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "StepDefClass.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify the success message",
+            "match": {
+              "location": "StepDefClass.user_should_verify_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Instagram Functionality testing",
+    "description": "",
+    "id": "instagram-functionality-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/Dell/eclipse-workspace/CucumberProj/src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
